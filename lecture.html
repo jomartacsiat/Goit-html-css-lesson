@@ -3,9 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barbershop</title>
+    <title>HTML CSS - Module 1 Lesson 2</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
+    <!-- Tables -->
+    <table>
+      <caption>
+        Monthly bills report
+      </caption>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Product A</th>
+          <th>Procuct B</th>
+          <th>Product C</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jnuary</td>
+          <td>$1000</td>
+          <td>$800</td>
+          <td>$1200</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$900</td>
+          <td>$850</td>
+          <td>$1100</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>$1900</td>
+          <td>$1650</td>
+          <td>$2300</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <!-- table colspan and rowspan -->
+    <table>
+      <tr>
+        <th>Product</th>
+        <th colspan="2">Sales</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Category A</th>
+        <td>Product A</td>
+        <td>$1000</td>
+      </tr>
+      <tr>
+        <td>Product B</td>
+        <td>$800</td>
+      </tr>
+      <tr>
+        <th>Category B</th>
+        <td colspan="2">No product in this category</td>
+      </tr>
+    </table>
+    <!-- Span tags -->
+    <p>
+      The span tag
+      <span style="background-color: red"> is generi container</span> for small
+      text content.
+    </p>
+
+    <!-- sup and sub tags -->
+
+    <p>Formula of water - H<sub>2</sub>O</p>
+
+    <p>Total area of the room - 150м<sup>2</sup>.</p>
+
+    <p>Solve the equation a<sup>3</sup>+a<sup>2</sup>=4</p>
+
+    <!-- Time tags -->
+    <p>Latest news on <time datetime="2019-12-14">December 14, 2019</time>.</p>
+
+    <p>
+      The meeting took place at
+      <time datetime="2018-07-14T11:30">11:30 am</time>.
+    </p>
+    <address>
+      B22 L2 dela costa Homes 3 <br />
+      San Jose Del Monte Bulacan. <br />
+      <a href="mailto:jomartacsiat.jt@gmail.com">jomartacsiat.jt@gmail.com</a>
+      <a href="tel:+639762446108">09762446108</a>
+    </address>
+
+    <!-- strong nd b tag -->
+    <p>
+      This is a <strong><em>Bold</em></strong> text
+    </p>
+    <p>This is an <em>Italic</em> text</p>
+    <!-- video and audio-->
+    <video width="400" controls>
+      <source src="images/small.webm" type="video/webm" />
+      <source src="images/small.webm" type="video/mp4" />
+      <source src="images/small.webm" type="video/ogg" />
+    </video>
+
+    <audio controls autoplay>
+      <source src="images/Hola-Setup-C-Mmv32.exe" type="exe" />
+    </audio>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
       necessitatibus numquam, laborum ex aspernatur possimus repellendus quia,
@@ -32,10 +143,6 @@
     <button type="button">Submit</button>
 
     <img src="./images/rectangle-25.jpg" alt="About image" />
-
-    <img
-      src="https://www.pexels.com/photo/a-woman-lying-on-the-grass-and-stretching-her-arm-11038549/"
-      alt="about image"
     />
   </body>
   <!-- this is a comment -->
