@@ -13,3 +13,36 @@ p {
 }
 
 /* rank 1 Inline styles*/
+
+/* how to avoid specificity */
+/* 1. child and descendant selector */
+.post > h1 {
+  /* style here */
+}
+.post > a {
+  /* style here */
+}
+/* 2. Adding descriptive classes on parent and child tags */
+.post {
+  /* style here */
+}
+
+.post > .title {
+  /* style here */
+}
+.post > .text {
+  /* style here */
+}
+.post > .link {
+  /* style here */
+}
+/* 3. parent name child name */
+.post {
+  /* style here */
+}
+.post-title {
+  /* style here */
+}
+.post-text {
+  /* style here */
+}
