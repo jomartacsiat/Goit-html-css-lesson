@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to CSS</title>
+    <!-- internal CSS -->
+    <style>
+      p {
+        color: blue;
+        font-size: 24px;
+      }
+    </style>
+    <link rel="stylesheet" href="./leture1.css" />
+  </head>
+  <body>
+    <!-- Inline CSS -->
+    <p>The CSS of this content will be applied using inline CSS</p>
+
+    <!-- Selectors -->
+    <!-- 1. Element selector -->
+    <h2>The CSS of this content will be applied using element selector</h2>
+
+    <!-- 2. Class Selector -->
+    <h2 class="orange red-background">
+      The CSS of this content will be applied using class selector
+    </h2>
+
+    <!--3. ID Selector  -->
+
+    <section id="about">
+      The CSS of this content will be applied using ID selection
+    </section>
+
+    <!--4. Descendant selector  -->
+    <a href="">Read our blog!</a>
+
+    <ul class="social-links">
+      <li>
+        <a href="">Twitter</a>
+      </li>
+      <li>
+        <a href="">Instagram</a>
+      </li>
+      <li>
+        <a href="">Facebook</a>
+      </li>
+    </ul>
+
+    <!-- 5. Child selector -->
+    <ul class="menu">
+      <li>
+        computer accessories
+        <ul class="submenu">
+          <li>processor</li>
+          <li>Monitor</li>
+          <li>video cards</li>
+        </ul>
+      </li>
+      <li>
+        appliances
+        <ul class="submenu">
+          <li>ref</li>
+          <li>TV sets</li>
+          <li>washing</li>
+        </ul>
+      </li>
+      <li>
+        Household
+        <ul class="submenu">
+          <li>armchair</li>
+          <li>matress</li>
+          <li>fireplaces</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- 6. Attribute selector -->
+    <a href="https://htmlreference.io" title="Tag book">htmlreference.io</a>
+    <a href="https://cssreference.io" title="Style guide">cssreference.io</a>
+    <a href="https://www.youtube.com">Youtube</a>
+
+    <!-- 7. Attribute selector wityh value -->
+    <br />
+    <br />
+    <a href="https://htmlreference.io" title="Tag book">htmlreference.io</a>
+    <a href="https://cssreference.io" title="Style guide">cssreference.io</a>
+    <a href="https://www.youtube.com">Youtube</a>
+  </body>
+</html>

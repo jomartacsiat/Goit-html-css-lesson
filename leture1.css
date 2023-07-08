@@ -1,0 +1,43 @@
+p {
+  color: blue;
+  font-size: 24px;
+}
+
+h2 {
+  color: red;
+}
+
+/* 2. class selector */
+.orange {
+  color: orange;
+}
+
+.red-background {
+  background-color: red;
+}
+
+/* 3. ID selector */
+#about {
+  color: green;
+}
+
+/* 4. Descendants Selector */
+.social-links a {
+  color: magenta;
+}
+
+/* 5. Child selector */
+.menu > li {
+  border: 1px solid red;
+}
+
+/* 6. Attribute selector */
+a[title] {
+  color: teal;
+}
+
+/* 7. Attribute Selector with Value */
+a[href='https://htmlreference.io']
+{
+  color: violet;
+}

@@ -1,0 +1,24 @@
+/* 1. text color and background color */
+.text {
+  color: tomato;
+  background-color: black;
+}
+/* 1. color name */
+.color-name {
+  color: blue;
+}
+/* 2. rgb */
+.rgb {
+  color: rgb(255, 255, 0);
+}
+/* 3. hexadecimal */
+.hexadecimal {
+  color: #000000;
+  color: #ffffff;
+  color: #ff0000;
+  color: #00ff00;
+}
+/* 4. rgba */
+.rgba {
+  color: rgba(255, 21, 21, 50);
+}

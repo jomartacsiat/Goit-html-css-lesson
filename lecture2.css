@@ -1,0 +1,38 @@
+.social-links .link {
+  color: teal;
+}
+/* pseudo class in link */
+/* 1. Hover */
+.social-links .link:hover {
+  color: blue;
+}
+
+/* 2. focus */
+.social-links .link:focus {
+  color: orange;
+}
+
+/* 3. Active */
+.social-links .link:active {
+  color: red;
+}
+
+/* 4. visited */
+.social-links .link:visited {
+  color: purple;
+}
+/* Pseudo-Class in tables */
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+/* table deisgn */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}

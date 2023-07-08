@@ -1,0 +1,15 @@
+/* Rank 4 elements */
+p {
+  color: red;
+}
+/* rank 3 classes */
+.pink {
+  color: pink;
+}
+
+/* rank 2 ID */
+#orange {
+  color: orange;
+}
+
+/* rank 1 Inline styles*/
